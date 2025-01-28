@@ -8,5 +8,5 @@ import (
 
 func AuthRoutes(router *mux.Router) {
 	// Define the signup route and link it to the Signup handler
-	router.HandleFunc("/signup", handler.Signup).Methods("POST")
+	router.HandleFunc("/api/signup", handler.Signup).Methods("POST")
 }
